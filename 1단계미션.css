@@ -7,10 +7,8 @@
 /* HTML과 Body의 기본 설정 */
 html, body {
 	height: 100%;
-	margin: 0; /* 혹시 body 기본 마진이 있을까 봐 추가! */
-	padding: 0; /* 혹시 body 기본 패딩이 있을까 봐 추가! */
-	display: flex; /* body를 Flexbox 컨테이너로 만들어줘! */
-	justify-content: center; /* 가로 방향(좌우)으로 가운데 정렬! */
+	display: flex; 
+	justify-content: center;
 	align-items: center; 
 }
 .Calculator {
