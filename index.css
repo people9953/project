@@ -75,7 +75,6 @@ html, body {
 	font-size: 20px;
 	cursor: pointer;
 	border-radius: 5px;
-	display: flex;
 	justify-content: center;
 	align-items: center;
 	width: calc(25% - 10px);
