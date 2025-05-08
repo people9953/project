@@ -64,8 +64,8 @@ html, body {
 	height: 700px;
 	width: 550px;
 	margin-top: 20px;
-	display: grid;
-	grid-template-columns: repeat(4, 1fr);
+	display: flex;
+	flex-wrap: wrap;
 	gap : 10px;
 }
 .buttons button {
@@ -78,6 +78,7 @@ html, body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	width: calc(25% - 10px);
 }
 .buttons .function {
 	background-color: darkgray;
@@ -90,8 +91,7 @@ html, body {
 .buttons .zero {
     text-align: center;
     padding-left: 35px; 
-    
-	grid-column: span 2;
+	width: calc(50% - 10px);
 }
 .buttons button:hover {
     background-color: #dcdcdc; 
